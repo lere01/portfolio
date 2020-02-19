@@ -1,0 +1,13 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* .my-cd {
+    @apply mx-auto my-5 max-w-sm overflow-hidden shadow-2xl box-border bg-black min-h-allmost;
+} */
+
+/* .my-cd {
+    min-height: 90vh;
+} */
