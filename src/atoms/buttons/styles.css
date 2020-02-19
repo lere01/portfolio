@@ -1,0 +1,21 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.my-btn-default {
+  @apply border border-indigo-900 py-2 px-6 rounded-full bg-transparent;
+}
+
+.my-btn-default:hover {
+  @apply text-white border border-white bg-myBlue;
+}
+
+.my-btn-primary {
+  @apply text-white py-2 px-6 rounded-full;
+}
+
+.my-btn-primary:hover {
+  @apply text-indigo-900 border border-indigo-900 bg-transparent;
+}
