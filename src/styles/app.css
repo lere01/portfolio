@@ -11013,40 +11013,35 @@ video {
 /********************************Buttons*****************************/
 
 .my-btn-default {
-  border-width: 1px;
-  border-color: #3c366b;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  border-radius: 9999px;
-  background-color: transparent;
-  color: #2b2b2b;
+  border-width: 1px !important;
+  border-color: #3c366b !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  margin-right: 0.25rem !important;
+  border-radius: 9999px !important;
+  background-color: transparent !important;
+  color: #2b2b2b !important;
 }
 
 .my-btn-default:hover {
-  color: #fff;
-  border-width: 1px;
-  border-color: #fff;
-  background-color: #4b21ff;
+  /* @apply text-white border border-white bg-myBlue !important; */
 }
 
 .my-btn-primary {
-  color: #fff;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  border-radius: 9999px;
-  background-color: #4b21ff;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  margin-right: 1.25rem !important;
+  border-radius: 9999px !important;
+  background-color: #4b21ff !important;
+  color: #fff !important;
 }
 
 .my-btn-primary:hover {
-  color: #3c366b;
-  border-width: 1px;
-  border-color: #2b2b2b;
-  background-color: transparent;
-  color: #2b2b2b;
+  /* @apply text-indigo-900 border border-myDark bg-transparent text-myDark !important; */
 }
 
 .my-btn-primary-2 {
@@ -11077,8 +11072,23 @@ video {
   text-transform: uppercase;
   color: #2b2b2b;
   font-family: acumin-pro, Acumin Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+}
+
+.head {
+  display: block;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: acumin-pro, Acumin Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.white-head {
+  display: block;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: acumin-pro, Acumin Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .blue-head {
@@ -11088,8 +11098,6 @@ video {
   text-transform: uppercase;
   color: #4b21ff;
   font-family: acumin-pro, Acumin Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 .subhead {
@@ -11099,8 +11107,24 @@ video {
   text-transform: uppercase;
   color: #2b2b2b;
   font-family: acumin-pro, Acumin Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+}
+
+.sub {
+  display: block;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: #2b2b2b;
+  font-family: acumin-pro, Acumin Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.white-subhead {
+  display: block;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: acumin-pro, Acumin Pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .txt1 {
@@ -11188,6 +11212,39 @@ video {
 }
 
 /****************************************************************************/
+
+/***********************************Containers********************************/
+
+.txt-container {
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  max-width: 100%;
+}
+
+.btn-container {
+  display: flex;
+  margin-left: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0;
+  max-width: 100%;
+  align-content: center;
+}
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 0;
+}
+
+/******************************************************************************/
 
 @media (min-width: 640px){
   .sm\:sr-only{

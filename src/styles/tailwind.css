@@ -8,19 +8,19 @@
 
 /********************************Buttons*****************************/
 .my-btn-default {
-  @apply border border-indigo-900 py-2 px-6 rounded-full bg-transparent text-myDark;
+  @apply border border-indigo-900 py-2 px-6 mr-1 rounded-full bg-transparent text-myDark !important;
 }
 
 .my-btn-default:hover {
-  @apply text-white border border-white bg-myBlue;
+  /* @apply text-white border border-white bg-myBlue !important; */
 }
 
 .my-btn-primary {
-  @apply text-white py-2 px-6 rounded-full bg-myBlue;
+  @apply py-2 px-6 mr-5 rounded-full bg-myBlue text-white !important;
 }
 
 .my-btn-primary:hover {
-  @apply text-indigo-900 border border-myDark bg-transparent text-myDark;
+  /* @apply text-indigo-900 border border-myDark bg-transparent text-myDark !important; */
 }
 
 .my-btn-primary-2 {
@@ -34,15 +34,32 @@
 
 /******************Typography**********************************/
 .dark-head {
-  @apply block font-bold text-2xl uppercase text-myDark font-myFont my-6;
+  @apply block font-bold text-2xl uppercase text-myDark font-myFont;
+}
+
+.head {
+  @apply block font-bold text-2xl uppercase font-myFont;
+}
+
+.white-head {
+  @apply block font-bold text-2xl uppercase text-white font-myFont;
 }
 
 .blue-head {
-  @apply block font-bold text-2xl uppercase text-myBlue font-myFont my-6;
+  @apply block font-bold text-2xl uppercase text-myBlue font-myFont;
 }
 
 .subhead {
-  @apply block font-bold text-lg uppercase text-myDark font-myFont my-2;
+  @apply block font-bold text-lg uppercase text-myDark font-myFont;
+}
+
+.sub {
+  @apply block font-bold text-lg uppercase text-myDark font-myFont;
+}
+
+
+.white-subhead {
+  @apply block font-bold text-lg uppercase text-white font-myFont;
 }
 
 .txt1 {
@@ -93,3 +110,17 @@
 
 }
 /****************************************************************************/
+
+/***********************************Containers********************************/
+.txt-container {
+  @apply block ml-0 my-0 px-0 py-0 max-w-full;
+}
+
+.btn-container {
+  @apply flex ml-0 my-2 pl-0 max-w-full content-center;
+}
+
+.big-container {
+  @apply  flex flex-col content-between p-0;
+}
+/******************************************************************************/
