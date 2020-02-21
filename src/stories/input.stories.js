@@ -8,4 +8,4 @@ export default {
     decorators: [withA11y]
 };
 
-export const formInput = () => <InputSpace myinput></InputSpace>
+export const formInput = () => <InputSpace>Full Name</InputSpace>
