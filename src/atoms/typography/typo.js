@@ -4,8 +4,12 @@ import classnames from "classnames";
 
 const Typo = ({
   darkhead,
+  whitehead,
   bluehead,
   subhead,
+  whitesub,
+  sub,
+  head,
   txt1,
   txt2,
   txt3,
@@ -14,8 +18,12 @@ const Typo = ({
 }) => {
   const myClass = classnames({
     "dark-head": darkhead,
+    "whitehead": whitehead,
     "blue-head": bluehead,
     "subhead": subhead,
+    "white-subhead": whitesub,
+    "sub": sub,
+    "head": head,
     "txt1": txt1,
     "txt2": txt2,
     "txt3": txt3,
