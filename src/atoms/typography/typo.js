@@ -30,7 +30,7 @@ const Typo = ({
     "txt4": txt4
   });
 
-  return <span className={myClass}>{props.children}</span>;
+  return <span className={myClass} style = { props.style }>{props.children}</span>;
 };
 
 export default Typo;

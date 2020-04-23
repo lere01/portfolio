@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly when called 1`] = `
+<input
+  class="my-input"
+  type="text"
+/>
+`;
+
+exports[`describe the different inputs Renders correctly when called 1`] = `
+<input
+  class="my-input"
+  type="text"
+/>
+`;
+
+exports[`describe the different inputs Renders correctly when called 2`] = `
+<textarea
+  class="my-input"
+  cols="4"
+  rows="5"
+/>
+`;
+
+exports[`hello Renders correctly when called 1`] = `
+<input
+  class="my-input"
+  type="text"
+/>
+`;

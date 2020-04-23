@@ -1,3 +1,9 @@
+@import url("https://use.typekit.net/rks8gfj.css");
+
+* {
+  font-family: "acumin-pro";
+}
+
 .App {
   text-align: center;
 }

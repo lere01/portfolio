@@ -24,5 +24,13 @@ export const textCard = () => (
 );
 
 export const pictureCard = () => (
-    <Card bigcard></Card>
+    <Card bigcard style={{
+      position: 'absolute',
+      left: "15rem",
+      top: "5%"
+    }}></Card>
+);
+
+export const fullCard = () => (
+    <Card fullcard style={{width:"15rem"}}></Card>
 );

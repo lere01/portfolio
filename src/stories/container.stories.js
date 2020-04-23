@@ -1,6 +1,6 @@
 import React from "react";
 import { withA11Y } from "@storybook/addon-a11y";
-import Container from "../molecules/containers/container";
+import Container from "../atoms/containers/container";
 import Typo from "../atoms/typography/typo";
 import Btn from "../atoms/buttons/button";
 
