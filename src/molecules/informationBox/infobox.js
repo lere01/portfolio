@@ -1,24 +1,40 @@
 import React from "react";
 import "../../styles/app.css";
-import TextCard from "../../atoms/cards/card";
-import Button from "../../atoms/buttons/button";
 import Typo from "../../atoms/typography/typo";
+import Container from "../../atoms/containers/container";
+import Social from "../socialmedia/socialmedia";
 
-const Info = () => {
+const Info = props => {
   return (
-    <TextCard>
-      <Typo darkhead>SANTUSH</Typo>
-      <Typo bluehead>DEB</Typo>
-      <Typo>Creative Director - Saint Studios</Typo>
-      <Typo>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, debitis
-        adipisci! Rem a delectus rerum molestiae sequi ipsa laboriosam, suscipit
-        ratione. Cum accusamus reprehenderit natus incidunt iusto quam numquam
-        laboriosam.
-      </Typo>
-      <Button primary></Button>
-      <Button secondary></Button>
-    </TextCard>
+    <Container bgcontain style={props.style}>
+      <Container bgcontain>
+        <Container txtcontain>
+          <Typo txt2 style={{ color: "white" }}>
+            Email
+          </Typo>
+        </Container>
+        <Container txtcontain>
+          <Typo txt3 style={{ color: "white" }}>
+            faithoyedemi@gmail.com
+          </Typo>
+        </Container>
+      </Container>
+
+      <Container bgcontain>
+        <Container txtcontain>
+          <Typo txt2 style={{ color: "white" }}>
+            Phone
+          </Typo>
+        </Container>
+        <Container txtcontain>
+          <Typo txt3 style={{ color: "white" }}>
+            +234 813 345 8982
+          </Typo>
+        </Container>
+      </Container>
+
+      <Social></Social>
+    </Container>
   );
 };
 

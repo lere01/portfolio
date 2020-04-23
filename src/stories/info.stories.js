@@ -1,5 +1,6 @@
 import React from 'react';
 import Info from '../molecules/informationBox/infobox';
+import Container from '../atoms/containers/container';
 import { withA11y } from '@storybook/addon-a11y';
 
 export default {
@@ -10,5 +11,8 @@ export default {
 
 
 export const InfoBox = () => (
-    <Info></Info>
+    <Container bgcontain style={{background: "blue"}}>
+        <Info style={{margin: "8rem 35rem"}}></Info>
+    </Container>
+    
 )
